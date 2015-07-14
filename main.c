@@ -6,7 +6,7 @@
 /*   By: rmangili <rmangili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/05/23 15:05:33 by rmangili          #+#    #+#             */
-/*   Updated: 2015/07/14 03:39:53 by rmangili         ###   ########.fr       */
+/*   Updated: 2015/07/14 03:53:06 by rmangili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ void 	test_strdup(void); // [ok]
 
 void	ft_cat(int fd);
 
-void	test_bzero(void)
+void	test_bzero(void) // [ok]
 {
 	char str[4] = "plo";
 
